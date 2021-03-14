@@ -1,42 +1,9 @@
-/* Beleren Bold */
-@font-face {
-	font-family: "Beleren Bold";
-	src: url("./font/Beleren2016-Bold.woff") format("woff"),
-		url("./font/Beleren2016-Bold.ttf") format("truetype"),
-		url("./font/Beleren2016-Bold.svg#Beleren2016-Bold") format("svg");
-	font-style: normal;
-	font-weight: bold;
-	text-rendering: optimizeLegibility;
-}
-
-/* Beleren SmallCaps Bold */
-@font-face {
-	font-family: "Beleren SmallCaps Bold";
-	src: url("./font/Beleren2016SmallCaps-Bold.woff") format("woff"),
-		url("./font/Beleren2016SmallCaps-Bold.ttf") format("truetype"),
-		url("./font/Beleren2016SmallCaps-Bold.svg#Beleren2016SmallCaps-Bold") format("svg");
-	font-style: normal;
-	font-weight: bold;
-	text-rendering: optimizeLegibility;
-}
-
-/* Beleren SmallCaps BoldItalic */
-@font-face {
-	font-family: "Beleren SmallCaps BoldItalic";
-	src: url("./font/Beleren2016SmallCaps-BoldItalic.woff") format("woff"),
-		url("./font/Beleren2016SmallCaps-BoldItalic.ttf") format("truetype"),
-		url("./font/Beleren2016SmallCaps-BoldItalic.svg#Beleren2016SmallCaps-BoldItalic")
-			format("svg");
-	font-style: italic;
-	font-weight: bold;
-	text-rendering: optimizeLegibility;
-}
 :root {
-	--main-font: 'Beleren Bold';
-	--color-font: #404040;
+	--main-font: 'Raleway', sans-serif;
+	--color-font: #555555;
 	--color-main: rgb(90, 0, 148);
 	--color-sec: rgb(75, 165, 0);
-	--color-bg: #f0ffff;
+	--color-bg: #f8f8ff;
 }
 
 body {
