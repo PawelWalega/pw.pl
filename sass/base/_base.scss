@@ -1,3 +1,7 @@
+:root {
+	--main-font: '';
+}
+
 body {
 	box-sizing: border-box;
 }
@@ -13,6 +17,12 @@ body {
 html {
 	font-size: 62.5%;
 	scroll-behavior: smooth;
+}
+.main-container {
+	padding: 0 1rem;
+}
+.section {
+	padding-top: $menu-h;
 }
 // ----- Resets ------
 // UL

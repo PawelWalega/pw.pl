@@ -1,0 +1,22 @@
+.welcome {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+	&__1 {
+	}
+	&__2 {
+	}
+	&__name {
+	}
+	&__profession {
+		&-web-dev {
+		}
+		&-engineer {
+		}
+	}
+
+	&__scroll-btn {
+		@include button-reset;
+	}
+}

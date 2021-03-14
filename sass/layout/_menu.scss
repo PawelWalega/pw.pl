@@ -1,12 +1,15 @@
 .menu {
+	position: absolute;
+	width: 100%;
+	height: $menu-h;
 	display: flex;
 	justify-content: flex-end;
+
 	&__btn {
 		@include button-reset;
+		display: block;
 		padding: 1rem 2rem;
 		&__lang {
-			display: block;
-			padding: 1rem 2rem;
 		}
 		&__theme {
 		}
