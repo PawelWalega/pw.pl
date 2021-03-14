@@ -1,0 +1,28 @@
+{
+  "name": "pw-pl",
+  "version": "1.0.0",
+  "description": "My personal portfolio website",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PawelWalega/pw-pl.git"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS/SCSS",
+    "BEM",
+    "JS ES2020",
+    "DOM API",
+    "Observer API"
+  ],
+  "author": "Paweł Wałęga",
+  "license": "MIT",
+  "scripts": {
+		"watch:sass": "node-sass sass/main.scss css/style.css -w",
+		"build-css": "node-sass --include-path scss sass/main.scss  css/main.min.css --output-style compressed"
+	},
+  "bugs": {
+    "url": "https://github.com/PawelWalega/pw-pl/issues"
+  },
+  "homepage": "https://github.com/PawelWalega/pw-pl#readme"
+}
