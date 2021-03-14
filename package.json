@@ -18,11 +18,16 @@
   "author": "Paweł Wałęga",
   "license": "MIT",
   "scripts": {
-		"watch:sass": "node-sass sass/main.scss css/style.css -w",
-		"build-css": "node-sass --include-path scss sass/main.scss  css/main.min.css --output-style compressed"
-	},
+    "watch-sass": "node-sass sass/main.scss css/main.css -w",
+    "live":"live-server",
+    "build-css": "node-sass --include-path scss sass/main.scss  css/main.css --output-style compressed"
+  },
   "bugs": {
     "url": "https://github.com/PawelWalega/pw-pl/issues"
   },
-  "homepage": "https://github.com/PawelWalega/pw-pl#readme"
+  "homepage": "https://github.com/PawelWalega/pw-pl#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "sass": "^1.32.8"
+  }
 }
