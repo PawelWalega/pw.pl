@@ -33,11 +33,18 @@
 }
 :root {
 	--main-font: 'Beleren Bold';
+	--color-font: #404040;
+	--color-main: rgb(90, 0, 148);
+	--color-sec: rgb(75, 165, 0);
+	--color-bg: #f0ffff;
 }
 
 body {
 	box-sizing: border-box;
+	background-color: $c-bg;
+	color: $c-font;
 }
+// background: linear-gradient(225deg, var(--color-main) 0%, var(--color-sec) 100%);
 
 *,
 *::after,

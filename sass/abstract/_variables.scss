@@ -2,5 +2,10 @@
 
 // FONT
 $ff: var(--main-font);
+$c-font: var(--color-font);
+$c-main: var(--color-main);
+$c-sec: var(--color-sec);
+$c-bg: var(--color-bg);
+$grad: linear-gradient(225deg, var(--color-main) 0%, var(--color-sec) 100%);
 // OTHER
 $menu-h: 30px;

@@ -3,6 +3,7 @@
 	min-height: 100vh;
 	flex-direction: column;
 	justify-content: space-between;
+	text-transform: uppercase;
 	&__1 {
 	}
 	&__2 {
@@ -10,10 +11,30 @@
 	&__name {
 	}
 	&__profession {
+		align-self: center;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		font-size: 2.5rem;
+		&s {
+			z-index: 1;
+			position: relative;
+		}
 		&-web-dev {
 		}
 		&-engineer {
+			margin-left: 8rem;
 		}
+	}
+	&__separator {
+		position: absolute;
+		top: 8%;
+		opacity: .6;
+		z-index: 0;
+		transform: skewX(-30deg);
+		height: 10rem;
+		width: 2rem;
+		background: $grad;
 	}
 
 	&__scroll-btn {
